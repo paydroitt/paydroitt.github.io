@@ -1,0 +1,158 @@
+
+/*Sidebar Style*/
+.sidebar-boxed.sidebar-dark {
+    background-color: #393F44;
+}
+
+.sidebar-boxed.sidebar-dark .sidenav a.open, .sidebar-boxed.sidebar-dark .sidenav a.open+ul {
+    background-color: #41484e;
+}
+
+.sidebar-boxed.sidebar-dark .sidenav>li>a:hover {
+    background-color: #41484e;
+}
+
+img.mainLogo {
+    max-width: 66.6%;
+}
+
+.banner {
+    background-color: #00627D;
+}
+
+/*Font Styling*/
+h1 a:before, h2 a:before, h3 a:before {
+    margin-left: -30px;
+    margin-right: 8px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 22px;
+    color: #00ACD8;
+    opacity: .3;
+    content: "\e144";
+    transition: .3s ease;
+}
+
+h2 a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    height: 1px;
+    background-color: #DC7E27;
+}
+
+h2 a, h2 a:focus, h2 a:hover {
+	color: #DC7E27;
+}
+
+h3 a, h3 a:focus, h3 a:hover {
+    color: #DC7E27;
+}
+
+h4 {
+    padding-top: 22px;
+}
+
+/*Hyperlink Color*/
+a, a:focus, a:hover {
+    color: #00ACD8;
+}
+
+/*Tabs Styling*/
+.tabs-text .nav-tabs>li.active a {
+    color: #00ACD8;
+}
+
+.tabs-text .nav-tabs>li.active {
+    margin-bottom: -1px;
+    border-bottom: 2px solid #00ACD8;
+}
+
+/*Elements*/
+code {
+    background-color: #f0f2f1;
+    text-shadow: 0 1px #fff;
+    font-size: 90%;    
+}
+
+code a {
+    text-decoration: underline;
+}
+
+.callout-info {
+    border-left-color: #00ACD8;
+}
+
+.callout-info h4, .callout-info a {
+    color: #00ACD8;
+}
+
+.main-content {
+    padding: 0px 0px 0px 0px;
+}
+
+/* .table-data td {
+    font-family: 'Cutive Mono', monospace;
+}
+
+.table-font {
+    font-size: 14px;
+} */
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fffffffb;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f6faff;
+}
+
+table.conditionalTable 
+
+th:nth-child(1) {
+    max-width: 200px;
+    min-width: 190px;
+}
+
+.fixed {
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.table-section {
+    background-color: #FCF4ED;
+    font-size: 18px !important;
+}
+span.parameter_id_super
+{
+    vertical-align: super;
+    font-size: 75%;
+    
+}
+
+/*Changelog Page*/
+
+.site-header .navbar {
+    background-color: #00ACD8;
+    padding: 20px 15px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    transition: 0.2s ease;
+}
+
+.sup-new
+{
+    color: #F3A41F;
+}
+
+
+li.active ul {
+    display: block!important;
+}
+
+.modal-body {
+    max-height: calc(100vh - 270px);
+    overflow-y: auto;
+}
